@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Button from './components/Button';
@@ -8,6 +9,9 @@ import Button from './components/Button';
 //react not a framework!
 //angular.vue
 //Test Hello hello
+
+import Button from './components/Button';
+
 function App() {
   return (
     <div className="App">
@@ -26,11 +30,12 @@ function App() {
         <Greet name = "Thor" heroName = "Thor"/>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.pinterest.ph/pin/650559108669350291/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Matutong mag React
+        
         </a>
       </header>
     </div>
